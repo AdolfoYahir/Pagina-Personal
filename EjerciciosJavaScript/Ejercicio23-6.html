@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 6</title>
+</head>
+<body>
+<h2>Tema 23</h2>
+<script>
+let texto = prompt("Ingresa una palabra:");
+
+let mitad = texto.substring(0, texto.length / 2);
+
+let ultimo = texto.charAt(texto.length - 1);
+
+let inverso = texto.split('').reverse().join('');
+
+let conGuiones = texto.split('').join('-');
+
+let vocales = texto.match(/[aeiouáéíóú]/gi);
+let cantidadVocales = vocales ? vocales.length : 0;
+
+document.write("<b>Texto original:</b> " + texto + "<br>");
+document.write("a) Primera mitad: " + mitad + "<br>");
+document.write("b) Último carácter: " + ultimo + "<br>");
+document.write("c) Inverso: " + inverso + "<br>");
+document.write("d) Con guiones: " + conGuiones + "<br>");
+document.write("e) Cantidad de vocales: " + cantidadVocales);
+</script>
+</body>
+</html>

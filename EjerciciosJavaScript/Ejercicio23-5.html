@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 5</title>
+</head>
+<body>
+<h2>Tema 23</h2>
+<script>
+let correo = prompt("Ingresa una dirección de correo electrónico:");
+
+function contieneArroba(email) {
+  return email.includes("@");
+}
+
+if (contieneArroba(correo)) {
+  document.write("El correo '" + correo + "' es válido (contiene '@').");
+} else {
+  document.write("El correo '" + correo + "' NO es válido (no contiene '@').");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+    let sueldo= parseFloat(prompt("Ingrese el sueldo del empleado:"));
+    let años= parseInt(prompt("Ingrese los años de servicio del empleado:"));
+    if (sueldo <500 && años >= 10) {
+        var bono = sueldo * 0.20;
+        var sueldoFinal = sueldo + bono;
+        document.write("El empleado recibe un bono de 20%. Su sueldo final es: " + sueldoFinal.toFixed(2) + "<br>");
+    } else if(sueldo <500 && años <10){
+        var bono = sueldo * 0.05;
+        var sueldoFinal = sueldo + bono;
+        document.write("El empleado recibe un bono de 5%. Su sueldo final es: " + sueldoFinal.toFixed(2) + "<br>");
+    }else if(sueldo >=500){
+        document.write("El empleado no recibe bono. Su sueldo es: " + sueldo.toFixed(2) + "<br>");
+    }
+    </script>
+</body>
+</html>

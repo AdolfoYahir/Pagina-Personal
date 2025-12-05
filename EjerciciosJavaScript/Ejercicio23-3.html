@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 3</title>
+</head>
+<body>
+<h2>Tema 23</h2>
+<script>
+let texto = prompt("Ingresa un texto:");
+let palabra = prompt("Ingresa la palabra a buscar:");
+let posicion = texto.indexOf(palabra);
+
+if (posicion !== -1) {
+  document.write("La palabra '" + palabra + "' se encuentra en la posición: " + posicion);
+} else {
+  document.write("La palabra '" + palabra + "' no se encuentra en el texto.");
+}
+</script>
+</body>
+</html>

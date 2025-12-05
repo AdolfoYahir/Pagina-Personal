@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio8-1</title>
+</head>
+<body>
+    <script>
+        let num1;
+        let num2;
+        let num3;
+        num1 = parseInt(prompt('Ingrese su primer numero:'));
+        num2 = parseInt(prompt('Ingrese su segundo numero:'));
+        num3 = parseInt(prompt('Ingrese su tercer numero:'));
+        if (num1 > num2) {
+            if(num1 > num3){
+                document.write('El mayor es el primero');
+            }
+            else{
+                document.write('El mayor es el segundo');
+            }
+        }
+        else{
+            if(num3 > num2){
+                document.write('El mayor es el tercero');
+            }else{
+                document.write('El mayor es el segundo');
+            }
+        }
+    </script>
+</body>
+</html>
