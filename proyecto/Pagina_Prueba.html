@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Título de página</title>
+<title>Aplicaciones Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        .sidebar {
+            width: 260px;
+            background: linear-gradient(to bottom, #2c3e50, #1a2530);
+            color: white;
+            overflow-y: auto;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+        }
+
+        .sidebar-header {
+            padding: 20px 15px;
+            border-bottom: 1px solid #34495e;
+            text-align: center;
+            background-color: #1a2530;
+        }
+
+        .sidebar-header h2 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #3498db;
+        }
+
+        .sidebar-section {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #ecf0f1;
+            background-color: #2c3e50;
+            border-left: 4px solid #3498db;
+            margin-bottom: 5px;
+        }
+
+        .sidebar-links {
+            list-style: none;
+        }
+
+        .sidebar-links li {
+            border-bottom: 1px solid #34495e;
+        }
+
+        .sidebar-links a {
+            display: block;
+            padding: 12px 20px 12px 30px;
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 15px;
+        }
+
+        .sidebar-links a:hover {
+            background-color: #34495e;
+            color: #3498db;
+            padding-left: 35px;
+        }
+
+        .sidebar-links a i {
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .sign-in-section {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #2c3e50;
+            border-radius: 5px;
+            margin: 20px 15px;
+            text-align: center;
+        }
+
+        .sign-in-btn {
+            display: block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .sign-in-btn:hover {
+            background-color: #2980b9;
+        }
+
+        .content {
+            flex: 1;
+            margin-left: 260px;
+            padding: 30px;
+        }
+
+        .content-header {
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .content-header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .content-header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .panel {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-left: 4px solid #3498db;
+        }
+
+        .panel h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .panel p {
+            line-height: 1.6;
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+
+        .code-block {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+
+        .toggle-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .toggle-btn:hover {
+            background-color: #2980b9;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            
+            .content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra lateral -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2><i class="fas fa-graduation-cap"></i> Tutoriales</h2>
+        </div>
+        <div class="sidebar-section">
+            <div class="section-title">Tutoriales</div>
+            <ul class="sidebar-links">
+                <li><a href="#"><i class="fab fa-html5"></i> HTML</a></li>
+                <li><a href="#"><i class="fab fa-css3-alt"></i> CSS</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <div class="section-title">HTML</div>
+            <ul class="sidebar-links">
+                <li><a href="#"><i class="fas fa-arrows-alt"></i>¿Qué es HTML?</a></li>
+                <li><a href="#"><i class="fas fa-square"></i>Historia de HTML</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <div class="section-title">CSS</div>
+            <ul class="sidebar-links">
+                <li><a href="#"><i class="fas fa-arrows-alt"></i> CSS Margins</a></li>
+                <li><a href="#"><i class="fas fa-square"></i> CSS Padding</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <div class="content-header">
+            <h1>CSS Tutorial</h1>
+            <p>Aprende CSS desde cero con nuestros completos tutoriales</p>
+        </div>
+        
+        <div class="panel">
+            <h2>CSS Display Property</h2>
+            <p>La propiedad display especifica el tipo de caja de visualización utilizada para un elemento HTML.</p>
+            
+            <div class="code-block">
+                .element {<br>
+                &nbsp;&nbsp;display: block;<br>
+                }
+            </div>
+            
+            <button class="toggle-btn">Mostrar/Ejecutar</button>
+        </div>
+        
+        <div class="panel">
+            <h2>CSS Position</h2>
+            <p>La propiedad position especifica el tipo de método de posicionamiento utilizado para un elemento.</p>
+            
+            <div class="code-block">
+                .element {<br>
+                &nbsp;&nbsp;position: relative;<br>
+                &nbsp;&nbsp;top: 20px;<br>
+                &nbsp;&nbsp;left: 15px;<br>
+                }
+            </div>
+            
+            <button class="toggle-btn">Mostrar/Ejecutar</button>
+        </div>
+        
+        <div class="panel">
+            <h2>CSS Flexbox</h2>
+            <p>El módulo de caja flexible, comúnmente conocido como flexbox, es un modelo de diseño unidimensional.</p>
+            
+            <div class="code-block">
+                .container {<br>
+                &nbsp;&nbsp;display: flex;<br>
+                &nbsp;&nbsp;justify-content: center;<br>
+                &nbsp;&nbsp;align-items: center;<br>
+                }
+            </div>
+            
+            <button class="toggle-btn">Mostrar/Ejecutar</button>
+        </div>
+    </div>
+
+    <script>
+        // Script para mostrar/ocultar contenido al hacer clic en los botones
+        document.querySelectorAll('.toggle-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const codeBlock = this.previousElementSibling;
+                if (codeBlock.style.display === 'none') {
+                    codeBlock.style.display = 'block';
+                    this.textContent = 'Ocultar';
+                } else {
+                    codeBlock.style.display = 'none';
+                    this.textContent = 'Mostrar';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
