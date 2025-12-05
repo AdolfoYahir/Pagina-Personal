@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejercicio 12 problema 2</title>
+<style>
+    .pregunta {
+    font-family:verdana;
+    font-size:14px;
+    font-style:italic;
+    color:#0000aa;
+    }
+    .respuesta {
+    font-family:verdana;
+    font-size:12px;
+    font-style:normal;
+    text-align:justify;
+    color:#555555;
+    }
+</style>
+</head>
+<body>
+    <h1 class="pregunta">¿Cuál de estos tres lenguajes es el más utilizado?</h1>
+    <p class="respuesta">
+        Java
+    </p>
+    <p class="respuesta">
+        C
+    </p>
+    <p class="respuesta">
+        C++
+    </p>
+    <h1 class="pregunta">¿Qué posición se ubica el lenguaje C#</h1>
+    <p class="respuesta">
+        4
+    </p>
+    <p class="respuesta">
+        5
+    </p>
+    <p class="respuesta">
+        10
+    </p>
+    <h1 class="pregunta">¿Qué posición ocupa el PHP?</h1>
+    <p class="respuesta">
+        7
+    </p>
+    <p class="respuesta">
+        10
+    </p>
+    <p class="respuesta">
+        20
+    </p>
+</body>
+</html>

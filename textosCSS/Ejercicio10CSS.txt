@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Ejercicio 10</title>
+    <style>
+        h1 em {
+            color: #dddddd;
+        }
+        h2 em{ 
+            color: #cccccc;
+        }
+        h3 em { 
+            color: #bbbbbb; 
+        }
+        h4 em{ 
+            color: #aaaaaa;
+        }
+        h5 em { 
+            color: #999999; 
+        }
+        h6 em{ 
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título nivel 1 y enfatizamos<em>Texto</em></h1>
+    <h2>Título nivel 2 y enfatizamos<em>Texto</em></h2>
+    <h3>Título nivel 3 y enfatizamos<em>Texto</em></h3>
+    <h4>Título nivel 4 y enfatizamos<em>Texto</em></h4>
+    <h5>Título nivel 5 y enfatizamos<em>Texto</em></h5>
+    <h6>Título nivel 6 y enfatizamos<em>Texto</em></h6>
+</body>
+</html>

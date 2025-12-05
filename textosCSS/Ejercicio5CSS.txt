@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejercicio 5</title>
+    <style>
+        p , h6 {
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: #002fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h6>Título de nivel 6</h6>
+    <p>Esto es la prueba de un párrafo con un estilo propio.</p>
+</body>
+</html>

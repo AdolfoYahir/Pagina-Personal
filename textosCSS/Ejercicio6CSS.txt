@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Ejercicio 6</title>
+    <style>
+        p, h6 {
+            font-size: 12px;
+        }
+
+        h6 { 
+            color: blue; 
+        }
+        p  { 
+            color: #aaaaaa; 
+        }
+    </style>
+</head>
+<body>
+    <h6>Título de nivel 6</h6>
+    <p>Esto es un párrafo</p>
+</body>
+</html>

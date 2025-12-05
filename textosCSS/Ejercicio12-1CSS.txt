@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejercicio 12.1</title>
+<style>
+    .subrayado {
+        color:#00aa00;
+        text-decoration:underline;
+    }
+    .tachado {
+        color:#00aa00;
+        text-decoration:line-through;
+    }
+</style>
+</head>
+<body>
+    <h1 class="subrayado">Estructuras repetitivas en Java</h1>
+    <p>
+        Hasta ahora hemos empleado estructuras
+        <span class="subrayado">SECUENCIALES</span> y 
+        <span class="subrayado">CONDICIONALES</span>. Existe otro tipo de estructuras tan importantes como las anteriores 
+        las estructuras <span class="subrayado">REPETITIVAS</span>.
+    </p>
+    <p>
+        Las estructuras repetitivas son más 
+        <span class="tachado">sencillas</span> complejas.
+    </p>
+</body>
+</html>

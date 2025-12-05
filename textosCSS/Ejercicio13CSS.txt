@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 13</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }   
+
+    #cabecera {
+    background-color: #868686;
+    color: #ffffff;
+    font-family: "Lucida Console", Monaco, monospace;
+    }
+
+    #cuerpo {
+    background-color: #8d8c8c33;
+    color: #333;
+    }
+
+    #pie {
+    background-color: #868686;
+    color: yellow;
+    text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Gestor de base de datos MySQL</h1>
+    </div>
+    <div id="cuerpo">
+        <p>SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de programación 
+        para trabajar con bases de datos relacionales como MySQL, Oracle, etc.</p>
+        <p>MySQL es un interpretador de SQL, es un servidor de base de datos.</p>
+        <p>MySQL permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos, ordenarlos, 
+        hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases de datos.</p>
+    </div>
+    <div id="pie">
+        <p>Tutorial de MySQL</p>
+    </div>
+</body>
+</html>

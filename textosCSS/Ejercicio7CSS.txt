@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejercicio 7</title>
+<style>
+    p {
+        color: #008000;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <p>SQL, Structure Query Language (Lenguaje de Consulta Estructurada) es un lenguaje de programación para trabajar con base de datos relacionales como MySQL, Oracle, etc.</p>
+    <p>MySQL es un interruptor de SQL, es un servidor de base de datos.</p>
+    <p>MySQL permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos, ordenarlos, hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases de datos.</p>
+</body>
+</html>
