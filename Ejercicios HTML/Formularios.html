@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario HTML5</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        form > div {
+            margin-bottom: 10px;
+        }
+        label {
+            display: inline-block;
+            width: 150px; 
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div>
+        <label>Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required autofocus>
+    </div>
+    <div>
+        <label>Correo electrónico:</label>
+        <input type="email" id="email" name="correo" required>
+    </div>
+    <div>
+        <label>URL:</label>
+        <input type="url" id="url" name="url" placeholder="Escribe la URL de tu página">
+    </div>
+    <div>
+        <label>Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+    </div>
+    <div>
+        <label>Tiempo:</label>
+        <input type="time" id="tiempo" name="tiempo">
+    </div>
+    <div>
+        <label>Fecha y hora:</label>
+        <input type="datetime-local" id="datetime" name="datetime">
+    </div>
+    <div>
+        <label>Mes:</label>
+        <input type="month" id="mes" name="mes">
+    </div>
+    <div>
+        <label>Semana:</label>
+        <input type="week" id="semana" name="semana">
+    </div>
+    <div>
+        <label>Número (min -10, max 10):</label>
+        <input type="number" id="numero" name="numero" min="-10" max="10" value="0">
+    </div>
+    <div>
+        <label>Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+    </div>
+    <div>
+        <label>Término de búsqueda:</label>
+        <input type="search" id="search" name="search">
+    </div>
+    <div>
+        <label>Color favorito:</label>
+        <input type="color" id="color" name="color">
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+    </div>
+</form>
+</body>
+</html>
