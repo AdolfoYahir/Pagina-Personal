@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 1</title>
+</head>
+<body>
+<h2>Tema 23</h2>
+<script>
+let contador = 0;
+let nombre;
+
+do {
+  nombre = prompt("Ingresa un nombre:");
+  if (nombre.toLowerCase() !== "fin") {
+    contador++;
+  }
+} while (nombre.toLowerCase() !== "fin");
+
+document.write("Se ingresaron " + contador + " nombres.");
+</script>
+</body>
+</html>

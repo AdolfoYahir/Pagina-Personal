@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <script>
+        let nombre;
+        let edad;
+        nombre = prompt('Ingrese su nombre: ');
+        mail = prompt('Ingrese su mail: ');
+        document.write(nombre);
+        document.write('<br>')
+        document.write(mail);
+    </script>
+</body>
+</html>

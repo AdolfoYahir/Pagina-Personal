@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+    var dia = parseInt(prompt("Ingrese un día de la semana(en numero):"));
+    var mes = parseInt(prompt("Ingrese un mes del año(en numero):"));
+    var año = parseInt(prompt("Ingrese un año:"));
+    if (dia === 25 && mes === 12) {
+        document.write("Es Navidad");
+    } else {
+        document.write("No es Navidad");
+    }  
+    </script>
+</body>
+</html>

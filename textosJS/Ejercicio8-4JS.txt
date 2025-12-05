@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio8-4</title>
+</head>
+<body>
+    <script>
+        let nombre;
+        let pregun;
+        let correct;
+        nombre = prompt('Ingrese su nombre:');
+        pregun = parseInt(prompt('Ingrese el numero de preguntas:'));
+        correct = parseInt(prompt('Ingrese el numero de preguntas correctas:'));
+        porc = (correct * 100) / pregun
+        let nivel;
+        if (porc >= 90) {
+        nivel = "Nivel superior";
+        } else 
+        if (porc >= 75) {
+        nivel = "Nivel medio";
+        } else 
+        if (porc >= 50) {
+        nivel = "Nivel regular";
+        } else {
+        nivel = "Fuera de nivel";
+        }
+        document.write('Su nombre es '+nombre+' y esta '+nivel)
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio6-1</title>
+</head>
+<body>
+    <script>
+        let nota1;
+        let nota2;
+        let nota3;
+        nota1 = parseInt(prompt('Ingrese su primer nota:'));
+        nota2 = parseInt(prompt('Ingrese su segunda nota:'));
+        nota3 = parseInt(prompt('Ingrese su tercera nota:'));
+        let suma = parseInt(nota1) + parseInt(nota2) + parseInt(nota3);
+        let producto = suma / 3;
+        if (producto >= 7) {
+        document.write('Promocionado');
+        }else{
+        document.write('No promocionado');
+        }
+    </script>
+</body>
+</html>

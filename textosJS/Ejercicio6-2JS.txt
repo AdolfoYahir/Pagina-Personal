@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio6-2</title>
+</head>
+<body>
+    <script>
+        let contra1;
+        let contra2;
+        nota1 = parseInt(prompt('Ingrese su primer contraseña:'));
+        nota2 = parseInt(prompt('Ingrese su segunda contraseña:'));
+        if (contra1 == contra2) {
+        document.write('Son iguales');
+        }else{
+        document.write('No son iguales');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+    let num1, num2, num3;
+    num1 = parseInt(prompt('Ingrese primer número: '));
+    num2 = parseInt(prompt('Ingrese segundo número: '));
+    num3 = parseInt(prompt('Ingrese tercer número: '));
+    let suma = parseInt(num1) + parseInt(num2);
+    let multi = suma * parseInt(num3);
+    if (num1 == num2 && num1 == num3) {
+        document.write('El total es ' + multi);
+    } else {
+        document.write('Los 3 numeros no son iguales')
+    }
+    </script>
+</body>
+</html>

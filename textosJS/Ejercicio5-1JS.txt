@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio5-1</title>
+</head>
+<body>
+    <script>
+        let lado;
+        lado = prompt('Ingrese un lado: ');
+        let perimetro = parseInt(lado) * '4';
+        document.write('El perimetro es ');
+        document.write(perimetro);
+        document.write('<br>');
+    </script>
+</body>
+</html>

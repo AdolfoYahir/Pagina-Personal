@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio8-3</title>
+</head>
+<body>
+    <script>
+        let num;
+        num = parseInt(prompt('Ingrese su primer nota:'));
+        if (num > 99) {
+            document.write('Es de 3 digitos');
+        }else{ 
+        if(num < 9){
+            document.write('Es de un digito');
+        }else{
+            document.write('Es de 2 digitos');
+        }
+        }
+    </script>
+</body>
+</html>
