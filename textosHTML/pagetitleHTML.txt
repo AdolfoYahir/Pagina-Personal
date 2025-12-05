@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de página</title>
+</head>
+<body>-
+    <h1>El título de página</h1>
+    <h2>Title</h2>
+    <h3>El "title" es el que agrega un título a la página.</h3>
+    <h3>- Importante para la optimización de la busqueda del tema que se busca</h3>
+    <h2>Usos principales</h2>
+    <h3>- Para la barra de título de navegador</h3>
+    <h3>- Para los marcadores(Favoritos)</h3>
+    <h3>- Resultados de motores de busqueda</h3>
+    <h2>Características</h2>
+    <h3>* Debe de ser único y descriptivo</h3>
+    <h3>* La longitud no debe ser muy larga</h3>
+    <h3>* Incluir la palabra clave principal a la iquierzda para mejorar el SEO</h3>
+    <h3>* El título de la página no es lo mismo que el encabezado</h3>
+    <img src="https://lh5.googleusercontent.com/proxy/c8RfNxyYZFSIFuFFKOJ8D8UYc4Aw_Wx_AdQrSC4dY7c-WbHrKYKr4IjA3wFIRpNJve82TXglGsfHu9aes8IIJ7OVM3JEu7P3hfAuJmCz0bz4j3E0J4TqAI3YtaGGLzbIu-Sn1TQY0sJxeFT6hD7uwjXUgMFZLUc4zg02" 
+    alt="title">
+</body>
+</html>

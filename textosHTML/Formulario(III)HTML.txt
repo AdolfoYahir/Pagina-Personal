@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario III</title>
+</head>
+<body>
+<form>
+  <fieldset>
+    <legend>Laboral</legend>
+    <label><input type="checkbox" name="tipo_laboral" value="cuenta_ajena"> Por cuenta ajena</label><br>
+    <label><input type="checkbox" name="tipo_laboral" value="autonomo"> Autónomo</label><br><br>
+    <p>¿Alguna vez en el extranjero?</p>
+    <label><input type="radio" name="extranjero" value="si"> Sí</label><br>
+    <label><input type="radio" name="extranjero" value="ue"> Dentro de la UE</label><br>
+    <label><input type="radio" name="extranjero" value="no"> No</label>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Personal</legend>
+    <label for="nombre">Apellidos y nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <label for="conocimientos">Conocimientos sobre:</label><br>
+    <select id="conocimientos" name="conocimientos">
+      <option value="informatica">Informática</option>
+      <option value="conduccion">Conducción</option>
+      <option value="finanzas">Finanzas</option>
+      <option value="leyes">Leyes</option>
+    </select>
+  </fieldset>
+</form>
+</body>
+</html>

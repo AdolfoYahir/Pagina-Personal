@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tabla IV</title>
+<style>
+  table, td {
+    border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <table>
+                    <tr><td>A1</td></tr>
+                    <tr><td>A2</td></tr>
+            </table>
+        </td>
+        <td>
+            <table>
+                <td>B1
+                    <td>
+                        <table>
+                            <tr>
+                                <tr><td>B1-1</td></tr>
+                                <tr><td>B1-2</td></tr>
+                            </tr>
+                        </table>
+                    </td>
+                </td>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>C1
+            <table>
+                <tr>
+                    <tr><td>C1-1</td></tr>
+                    <tr><td>C1-2</td></tr>
+                </tr>
+            </table>
+        </td>
+        </td>
+        <td>
+            <table>
+                    <tr><td>D1</td></tr>
+                    <tr><td>D2</td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

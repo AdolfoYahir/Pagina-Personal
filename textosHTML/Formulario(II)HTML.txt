@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario II</title>
+</head>
+<body>
+<form>
+  <h2>Datos fiscales</h2>
+  <label for="sector">Seleccione su sector:</label><br>
+  <select id="sector" name="sector[]" multiple>
+    <option value="automocion">Automoción</option>
+    <option value="metal">Metal</option>
+    <option value="informatica">Informática</option>
+    <option value="finanzas">Finanzas</option>
+  </select><br><br>
+  <label><input type="checkbox" name="tipo" value="autonomo"> Autónomo</label><br>
+  <label><input type="checkbox" name="tipo" value="cuenta_ajena"> Cuenta ajena</label><br>
+  <label><input type="checkbox" name="tipo" value="no_sabe"> No sabe</label><br><br>
+  <label for="funcion">Describa su función:</label><br>
+  <textarea id="funcion" name="funcion" placeholder="Escriba aquí"></textarea>
+</form>
+</body>
+</html>
